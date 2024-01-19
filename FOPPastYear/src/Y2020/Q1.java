@@ -6,7 +6,7 @@ package Y2020;
 
 /**
  *
- * @author rz_rexton
+ * @rz_rexton
  */
 import java.util.Scanner;
 public class Q1 {
