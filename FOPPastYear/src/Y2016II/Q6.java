@@ -10,12 +10,20 @@ package Y2016II;
  */
 public class Q6 {
     public static void main(String[] args) {
-        FinancialRecord a = new FinancialRecord();
-        a.setAnnualInterestRate(8.0);
-        a.setBalance(20000);
-        a.setID(1001);
+        System.out.println("The information about financial record A is as follows:");
+        FinancialRecord a = new FinancialRecord(1234,10000);
+        a.setAnnualInterestRate(7.77);
         System.out.println(a.displayRecordInfo());
-        a.deposit(1500);
-        a.withdraw(500);
+        
+        System.out.println("");
+        System.out.println("The information about financial record B is as follows:");
+        FinancialRecord b = new FinancialRecord();
+        b.setID(1235);
+        b.setBalance(20000);
+        b.setAnnualInterestRate(8);
+        System.out.println(b.displayRecordInfo());
+        System.out.println(b.displayMonthlyInterestRate());
+        b.deposit(1500);
+        b.withdraw(500);
     }
 }

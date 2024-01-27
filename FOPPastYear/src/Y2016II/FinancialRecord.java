@@ -71,7 +71,11 @@ public class FinancialRecord {
     
     public String displayRecordInfo(){
         return "Financial record id is: "+ID+"\nFinancial record balance is: RM"+balance+
-                "\nAnnual interest rate is: "+annualInterestRate+"\nThe monthly interest rate is: "+getMonthlyInterestRate();
+                "\nAnnual interest rate is: "+annualInterestRate;
+    }
+    
+    public String displayMonthlyInterestRate(){
+        return "The monthly interest rate is: "+getMonthlyInterestRate();
     }
         
 }
