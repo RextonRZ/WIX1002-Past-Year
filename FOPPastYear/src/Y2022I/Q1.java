@@ -6,7 +6,7 @@ package Y2022I;
 
 /**
  *
- * @author ooiru
+ * @author rz_rexton
  */
 import java.util.Random;
 public class Q1 {
